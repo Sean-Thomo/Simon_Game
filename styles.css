@@ -10,18 +10,10 @@ body {
   color: #FEF2BF;
 }
 
-.container {
-  display: block;
-  width: 50%;
-  margin: auto;
-
-}
-
 .btn {
-  margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -50,4 +42,10 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+@media (max-width: 380px){
+  .grids{
+    margin-top: 10em;
+  }
 }
