@@ -65,7 +65,7 @@ function checkAnswer(currentLevel){
     }, 200)
 
     $('#level-title').text(`GAME OVER...
-     High Score: ${level}`);
+     High Score: ${level-1}`);
     startOver();
   }
 }
