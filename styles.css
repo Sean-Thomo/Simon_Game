@@ -12,8 +12,8 @@ body {
 
 .btn {
   display: inline-block;
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   border: 10px solid black;
   border-radius: 20%;
 }
